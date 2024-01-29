@@ -1,20 +1,20 @@
 /* eslint-disable quotes */
 module.exports = {
-  extends: ['next', 'prettier', 'next/core-web-vitals'],
-  plugins: ['react', 'react-hooks', 'prettier'],
+  extends: ["next", "prettier", "next/core-web-vitals"],
+  plugins: ["react", "react-hooks", "prettier"],
   rules: {
-    quotes: ['error'],
-    semi: ['error', 'always'],
-    'no-unused-vars': [
-      'error',
+    quotes: ["error"],
+    semi: ["error", "always"],
+    "no-unused-vars": [
+      "error",
       {
-        args: 'after-used',
-        caughtErrors: 'none',
+        args: "after-used",
+        caughtErrors: "none",
         ignoreRestSiblings: true,
-        vars: 'all'
+        vars: "all"
       }
     ],
-    'prefer-const': 'error',
-    'react-hooks/exhaustive-deps': 'error'
+    "prefer-const": "error",
+    "react-hooks/exhaustive-deps": "error"
   }
-}
+};

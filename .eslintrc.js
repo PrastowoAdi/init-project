@@ -1,8 +1,9 @@
+/* eslint-disable quotes */
 module.exports = {
   extends: ['next', 'prettier', 'next/core-web-vitals'],
   plugins: ['react', 'react-hooks', 'prettier'],
   rules: {
-    quotes: ['error', 'single'],
+    quotes: ['error'],
     semi: ['error', 'always'],
     'no-unused-vars': [
       'error',
